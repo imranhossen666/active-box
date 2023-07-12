@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Website with Bootstrap</title>
+    <title>Active</title>
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
 
@@ -18,12 +19,14 @@
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="">
                 </a>
+                <i class="fa-solid fa-bars menu-icon"></i>
                 <ul class="navbar-nav text-uppercase ms-auto">
-                    <li class="nav-item"><a class="nav-link mx-3 rounded" href="#">Features</a></li>
-                    <li class="nav-item"><a class="nav-link mx-3 rounded" href="#">Works</a></li>
-                    <li class="nav-item"><a class="nav-link mx-3 rounded" href="#">Our Team</a></li>
-                    <li class="nav-item"><a class="nav-link mx-3 rounded" href="#">Testimonials</a></li>
-                    <li class="nav-item"><a class="nav-link mx-3 rounded" href="#">Download</a></li>
+                    <i class="fa-solid fa-xmark close-icon"></i>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Works</a></li>
+                    <li><a href="#">Our Team</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Download</a></li>
                 </ul>
             </div>
         </div>
@@ -35,7 +38,7 @@
     <section id="banner">
         <div class="container">
             <div class="banner-main text-center text-white">
-                <h1 class="mx-auto text-uppercase w-50">Your Favorite One Page
+                <h1 class="text-uppercase">Your Favorite One Page
                     Multi Purpose Template</h1>
                 <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna
                     vel scelerisque nisl consectetur et.</p>
@@ -49,36 +52,36 @@
 
 
     <!-- about part start -->
-    <section>
+    <section id="service">
         <div class="container">
             <div class="a-main">
                 <div class="row text-center my-5">
-                    <div class="col-4 a-items">
+                    <div class="col-lg-4 a-items">
                         <img src="images/a-1.png" alt="">
                         <h4 class="text-uppercase my-4">Easily Customised</h4>
                         <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor </p>
                     </div>
-                    <div class="col-4 a-items">
+                    <div class="col-lg-4 a-items">
                         <img src="images/a2.png" alt="">
                         <h4 class="text-uppercase my-4">Responsive REady</h4>
                         <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor </p>
                     </div>
-                    <div class="col-4 a-items">
+                    <div class="col-lg-4 a-items">
                         <img src="images/a3.png" alt="">
                         <h4 class="text-uppercase my-4">Modern Design</h4>
                         <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor </p>
                     </div>
-                    <div class="col-4 a-items">
+                    <div class="col-lg-4 a-items">
                         <img src="images/a4.png" alt="">
                         <h4 class="text-uppercase my-4">Modern Design</h4>
                         <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor </p>
                     </div>
-                    <div class="col-4 a-items">
+                    <div class="col-lg-4 a-items">
                         <img src="images/a5.png" alt="">
                         <h4 class="text-uppercase my-4">Modern Design</h4>
                         <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor </p>
                     </div>
-                    <div class="col-4 a-items">
+                    <div class="col-lg-4 a-items">
                         <img src="images/a6.png" alt="">
                         <h4 class="text-uppercase my-4">Modern Design</h4>
                         <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor </p>
@@ -91,10 +94,10 @@
 
     
     <!-- portfolio part start -->
-    <section>
+    <section id="portfolio">
         <div class="p-main">
             <div class="ppp d-flex flex-wrap">
-                <div class="p-items w-25 position-relative">
+                <div class="p-items position-relative">
                     <img src="images/p1.jpg" alt="">
                     <div class="p-over position-absolute top-0 start-0 w-100 h-100">
                         <div class="p-over-text translate-middle position-absolute top-50 start-50 text-center text-white">
@@ -103,7 +106,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="p-items w-25 position-relative">
+                <div class="p-items position-relative">
                     <img src="images/p2.jpg" alt="">
                     <div class="p-over position-absolute top-0 start-0 w-100 h-100">
                         <div class="p-over-text translate-middle position-absolute top-50 start-50 text-center text-white">
@@ -112,7 +115,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="p-items w-25 position-relative">
+                <div class="p-items position-relative">
                     <img src="images/p3.jpg" alt="">
                     <div class="p-over position-absolute top-0 start-0 w-100 h-100">
                         <div class="p-over-text translate-middle position-absolute top-50 start-50 text-center text-white">
@@ -121,7 +124,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="p-items w-25 position-relative">
+                <div class="p-items position-relative">
                     <img src="images/p4.jpg" alt="">
                     <div class="p-over position-absolute top-0 start-0 w-100 h-100">
                         <div class="p-over-text translate-middle position-absolute top-50 start-50 text-center text-white">
@@ -130,7 +133,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="p-items w-25 position-relative">
+                <div class="p-items position-relative">
                     <img src="images/p5.jpg" alt="">
                     <div class="p-over position-absolute top-0 start-0 w-100 h-100">
                         <div class="p-over-text translate-middle position-absolute top-50 start-50 text-center text-white">
@@ -139,7 +142,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="p-items w-25 position-relative">
+                <div class="p-items position-relative">
                     <img src="images/p6.jpg" alt="">
                     <div class="p-over position-absolute top-0 start-0 w-100 h-100">
                         <div class="p-over-text translate-middle position-absolute top-50 start-50 text-center text-white">
@@ -148,7 +151,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="p-items w-25 position-relative">
+                <div class="p-items position-relative">
                     <img src="images/p7.jpg" alt="">
                     <div class="p-over position-absolute top-0 start-0 w-100 h-100">
                         <div class="p-over-text translate-middle position-absolute top-50 start-50 text-center text-white">
@@ -157,7 +160,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="p-items w-25 position-relative">
+                <div class="p-items position-relative">
                     <img src="images/p8.jpg" alt="">
                     <div class="p-over position-absolute top-0 start-0 w-100 h-100">
                         <div class="p-over-text translate-middle position-absolute top-50 start-50 text-center text-white">
@@ -173,24 +176,24 @@
 
 
     <!-- team part start -->
-    <section>
+    <section id="team">
         <div class="container">
-            <div class="tema-main my-5">
-                <div class="row text-center py-5">
-                    <div class="col-3">
+            <div class="team-main my-5">
+                <div class="row team-main text-center py-lg-5 py-1">
+                    <div class="col-lg-3 col-md-6 team-items">
                         <img src="images/one.jpg" alt="">
                         <h4 class="mt-3">Ruth Woods</h4>
                         <h6 class="text-danger text-uppercase">Founder, CEO</h6>
                         <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
                         <div class="icon d-inline-block">
                             <ul class="nav">
-                                <li class="nav-item"><a class="text-decoration-none" href="#"><i class="i-size mx-1 p-3 nav-link fa-brands fa-facebook-f"></i></a></li>
-                                <li class="nav-item"><a class="text-decoration-none" href="#"><i class="i-size mx-1 p-3 nav-link fa-brands fa-twitter"></i></a></li>
-                                <li class="nav-item"><a class="text-decoration-none" href="#"><i class="i-size mx-1 p-3 nav-link fa-brands fa-pinterest-p"></i></a></li>
+                                <li class="nav-item"><a class="text-decoration-none" href="#"><i class="i-size mx-1 p-3 fa-brands fa-facebook-f"></i></a></li>
+                                <li class="nav-item"><a class="text-decoration-none" href="#"><i class="i-size mx-1 p-3 fa-brands fa-twitter"></i></a></li>
+                                <li class="nav-item"><a class="text-decoration-none" href="#"><i class="i-size mx-1 p-3 fa-brands fa-pinterest-p"></i></a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3 col-md-6 team-items">
                         <img src="images/two.jpg" alt="">
                         <h4 class="mt-3">Timothy Reed</h4>
                         <h6 class="text-danger text-uppercase">Co-Founder, Developer</h6>
@@ -203,7 +206,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3 col-md-6 team-items">
                         <img src="images/three.jpg" alt="">
                         <h4 class="mt-3">Victoria Valdez</h4>
                         <h6 class="text-danger text-uppercase">UI Designer</h6>
@@ -216,7 +219,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3 col-md-6 team-items">
                         <img src="images/four.jpg" alt="">
                         <h4 class="mt-3">Beverly Little</h4>
                         <h6 class="text-danger text-uppercase">Data Scientist</h6>
@@ -238,13 +241,15 @@
     
     <!-- uknown part start -->
     <section>
-        <div class="uknown-main d-flex">
-            <div class="uknown-items w-50">
+        <div class="uknown-main">
+            <div class="uknown-items ">
                 <img src="images/uknown.jpg" alt="">
             </div>
-            <div class="uknown-items w-50 pt-5 ps-5">
-                <h2 class="text-white pe-5 pt-5">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</h2>
-                <h6 class="text-white mt-5">Susan Sims, Interaction Designer at XYZ</h6>
+            <div class="uknown-items">
+                <div class="uknown-text">
+                    <h2 class="text-white">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</h2>
+                    <h6 class="text-white mt-lg-5">Susan Sims, Interaction Designer at XYZ</h6>
+                </div>
             </div>
         </div>
     </section>
@@ -269,13 +274,13 @@
     <!-- footer part start -->
     <footer>
         <div class="container">
-            <div class="footer-main d-flex text-center text-white justify-content-between">
-                <div class="footer-items my-5">
+            <div class="footer-main text-center">
+                <div class="footer-items">
                     <h3 class="mt-4 mb-3">Location</h3>
                     <p>3481 Melrose Place</p>
                     <p class="mb-5">Beverly Hills, CA 90210</p>
                 </div>
-                <div class="footer-items my-5">
+                <div class="footer-items">
                     <h3 class="mt-4 mb-3">Share with Love</h3>
                     <div class="icon d-inline-block">
                         <ul class="nav">
@@ -285,7 +290,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="footer-items my-5">
+                <div class="footer-items">
                     <h3 class="mt-4 mb-3">About ActiveBox</h3>
                     <p class="px-4">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.</p>
                 </div>
@@ -296,7 +301,7 @@
 
     <div class="copy text-center text-white py-3">
         <p>Copyright © 2015 ActiveBox. All Rights Reserved</p>
-        <p>Made with Y by Kamal Chaneman</p>
+        <p>Made with Y by IMRAN</p>
     </div>
 
 

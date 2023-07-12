@@ -1,0 +1,328 @@
+@media (max-width: 575.98px){
+    nav {
+        padding: 0 0;
+    }
+    nav ul {
+        background-color: black;
+        padding: 20px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        visibility: hidden;
+        text-align: center;
+        z-index: 1000;
+        transform: translateY(-100%);
+        -webkit-transform: translateY(-100%);
+        -moz-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+        -o-transform: translateY(-100%);
+    }
+    nav ul li a {
+        padding: 5px 10px;
+        display: inline-block;
+    }
+    .menu-icon {
+        display: block;
+        font-size: 20px;
+        color: #fff;
+        background-color: #e84545;
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        padding: 10px;
+        border-radius: 6px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        -ms-border-radius: 6px;
+        -o-border-radius: 6px;
+        z-index: 999;
+    }
+    .close-icon {
+        display: block;
+        width: 40px;
+        height: 40px;
+        background-color: #e84545;
+        color: #fff;
+        text-align: center;
+        line-height: 40px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        -webkit-transform: translate(-50%, 50%);
+        -moz-transform: translate(-50%, 50%);
+        -ms-transform: translate(-50%, 50%);
+        -o-transform: translate(-50%, 50%);
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+
+    .visible-menuBox {
+        visibility: visible !important;
+        animation: menuAnimation 2s forwards;
+        -webkit-animation: menuAnimation 2s forwards;
+    }
+    @keyframes menuAnimation {
+        100% {
+            transform: translateY(0);
+            -webkit-transform: translateY(0);
+            -moz-transform: translateY(0);
+            -ms-transform: translateY(0);
+            -o-transform: translateY(0);
+        }
+    }
+
+    #banner {
+        padding: 100px 0 50px 0;
+    }
+    .banner-main h1 {
+        padding: 0 0;
+    }
+    .banner-main p {
+        padding: 0 10px;
+    }
+    .a-items {
+        padding: 0 30px;
+        margin-top: 20px;
+    }
+    .p-items {
+        width: 100%;
+    }
+    .team-items {
+        margin-top: 20px;
+    }
+    .uknown-items {
+        width: 100%;
+    }
+    .uknown-text {
+        padding: 20px;
+    }
+    .footer-main {
+        flex-wrap: wrap;
+        padding: 40px 0;
+    }
+    .footer-items {
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){     /* For small landscape */
+    nav {
+        padding: 0 0;
+    }
+    nav ul {
+        background-color: black;
+        padding: 20px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        visibility: hidden;
+        text-align: center;
+        z-index: 1000;
+        transform: translateY(-100%);
+        -webkit-transform: translateY(-100%);
+        -moz-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+        -o-transform: translateY(-100%);
+    }
+    nav ul li a {
+        padding: 5px 10px;
+        display: inline-block;
+    }
+    .menu-icon {
+        display: block;
+        font-size: 20px;
+        color: #fff;
+        background-color: #e84545;
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        padding: 10px;
+        border-radius: 6px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        -ms-border-radius: 6px;
+        -o-border-radius: 6px;
+        z-index: 999;
+    }
+    .close-icon {
+        display: block;
+        width: 40px;
+        height: 40px;
+        background-color: #e84545;
+        color: #fff;
+        text-align: center;
+        line-height: 40px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        -webkit-transform: translate(-50%, 50%);
+        -moz-transform: translate(-50%, 50%);
+        -ms-transform: translate(-50%, 50%);
+        -o-transform: translate(-50%, 50%);
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+
+    .visible-menuBox {
+        visibility: visible !important;
+        animation: menuAnimation 2s forwards;
+        -webkit-animation: menuAnimation 2s forwards;
+    }
+    @keyframes menuAnimation {
+        100% {
+            transform: translateY(0);
+            -webkit-transform: translateY(0);
+            -moz-transform: translateY(0);
+            -ms-transform: translateY(0);
+            -o-transform: translateY(0);
+        }
+    }
+
+    #banner {
+        padding: 100px 0 50px 0;
+    }
+    .banner-main h1 {
+        padding: 0 0;
+    }
+    .banner-main p {
+        padding: 0 10px;
+    }
+    .a-items {
+        padding: 0 30px;
+        margin-top: 20px;
+    }
+    .p-items {
+        width: 50%;
+    }
+    .team-items {
+        margin-top: 20px;
+    }
+    .uknown-items {
+        width: 100%;
+    }
+    .uknown-text {
+        padding: 20px;
+    }
+    .footer-main {
+        flex-wrap: wrap;
+        padding: 40px 0;
+    }
+    .footer-items {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){     /* For mediam tablet */
+    nav {
+        padding: 0 0;
+    }
+    nav ul {
+        background-color: black;
+        padding: 20px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        visibility: hidden;
+        text-align: center;
+        z-index: 1000;
+        transform: translateY(-100%);
+        -webkit-transform: translateY(-100%);
+        -moz-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+        -o-transform: translateY(-100%);
+    }
+    nav ul li a {
+        padding: 5px 10px;
+        display: inline-block;
+    }
+    .menu-icon {
+        display: block;
+        font-size: 20px;
+        color: #fff;
+        background-color: #e84545;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        padding: 10px;
+        border-radius: 6px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        -ms-border-radius: 6px;
+        -o-border-radius: 6px;
+        z-index: 999;
+    }
+    .close-icon {
+        display: block;
+        width: 40px;
+        height: 40px;
+        background-color: #e84545;
+        color: #fff;
+        text-align: center;
+        line-height: 40px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        -webkit-transform: translate(-50%, 50%);
+        -moz-transform: translate(-50%, 50%);
+        -ms-transform: translate(-50%, 50%);
+        -o-transform: translate(-50%, 50%);
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+
+    .visible-menuBox {
+        visibility: visible !important;
+        animation: menuAnimation 2s forwards;
+        -webkit-animation: menuAnimation 2s forwards;
+    }
+    @keyframes menuAnimation {
+        100% {
+            transform: translateY(0);
+            -webkit-transform: translateY(0);
+            -moz-transform: translateY(0);
+            -ms-transform: translateY(0);
+            -o-transform: translateY(0);
+        }
+    }
+    #banner {
+        padding: 100px 0 50px 0;
+    }
+    .banner-main h1 {
+        padding: 0 0;
+    }
+    .banner-main p {
+        padding: 0 10px;
+    }
+    .p-items {
+        width: 33.33%;
+    }
+    .team-items {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){  
+    
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px){
+    
+}
+@media (min-width: 1400.98px){
+    
+}
